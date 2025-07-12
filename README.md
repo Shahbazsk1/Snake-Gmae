@@ -36,6 +36,7 @@
       <li>Manages the snake's body segments (Turtle objects).</li>
       <li>ontrols direction with up(), down(), left(), and right() methods.</li>
       <li>Resets the snake after collision.</li>
+    </ul>
   </li>
 </ul>
 <h3>🍎 food.py – Food Class</h3>
@@ -79,14 +80,14 @@
   <ul>
     <li>Turtle() – Create game objects (snake, food, score)</li>
     <li>Screen() – Controls game screen</li>
-    <li>screen.listen() – Detects user key presses
-        screen.onkey() – Binds arrow keys to movement
-        screen.tracer(0) – Manual control over screen updates
-        screen.update() – Updates game frame
-        turtle.goto(x, y) – Moves turtle to specific coordinates
-        turtle.distance() – Calculates distance to another turtle (for collision detection)
-        turtle.write() – Draws text (score)
-        turtle.hideturtle() – Hides the turtle shape (used for the scoreboard)</li>
+    <li>screen.listen() – Detects user key presses</li>
+    <li>screen.onkey() – Binds arrow keys to movement</li>
+    <li>screen.tracer(0) – Manual control over screen updates</li>
+    <li>screen.update() – Updates game frame</li>
+    <li>turtle.goto(x, y) – Moves turtle to specific coordinates</li>
+    <li>turtle.distance() – Calculates distance to another turtle (for collision detection)</li>
+    <li>turtle.write() – Draws text (score)</li>
+    <li>turtle.hideturtle() – Hides the turtle shape (used for the scoreboard)</li>
   </ul>
   </li>
 </ul>
